@@ -4,7 +4,7 @@ import { AuthProvider } from './context/AuthContext';
 import { RestaurantProvider } from './context/RestaurantContext';
 import PrivateRoute from './components/PrivateRoute';
 import Login from './components/Login';
-import SignUp from './components/SignUp';
+import SignUp from './components/Signup';
 import Home from './components/Home';
 import RestaurantDetail from './components/RestaurantDetail';
 import Header from './components/Header';
