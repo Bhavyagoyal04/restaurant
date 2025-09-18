@@ -8,10 +8,8 @@ import { RestaurantProvider } from './context/RestaurantContext';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RestaurantProvider>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
-    </RestaurantProvider>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
