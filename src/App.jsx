@@ -25,7 +25,7 @@ function App() {
                 <Route path="/restaurant/:id" element={<RestaurantDetail />} />
               </Route>
               
-              <Route path="*" element={<Navigate to="/login" replace />} />
+              <Route path="*" element={<Navigate to="/login" />} />
             </Routes>
           </main>
         </div>
